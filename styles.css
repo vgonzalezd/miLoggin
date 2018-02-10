@@ -1,0 +1,10 @@
+body {
+	font-family: Arial;
+	font-size: 20px;
+}
+
+.cajaGrandota {
+  margin: 20px;
+  padding: 20px 40px;
+	border: 5px solid black;
+}
