@@ -4,20 +4,35 @@
     <meta charset="utf-8">
     <title>Login Vane</title>
     <link rel="stylesheet" href="./styles.css">
+
+    <!-- jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./app.js"></script>
+
+    <!--<script>
+      $(document).ready(function(){ //deje que cargue la pagna
+        alert("jQuery esta funcionando !!");
+        $("button").click(function(){
+            $(this).slideUp();
+        });
+      });
+    </script>-->
+
   </head>
   <body>
     <h1>Bienvenido a mi intento, por favor identifiquese</h1>
     <div class="cajaGrandota">
-      <div>
+      <div class="miClase">
+
         <p>USUARIO</p>
         <input type="text" name="User1" value="">
 
         <p>PASSWORD</p>
         <input type="password" name="password1" value="">
-	Waaaaaaaaaaaaaaaaaaaaa!
+
         <br>
-        <a href="/home/vgonzalezd/loginVane/OtraPagina.html">
-        <button type="button" name="button1">Enter</button>
+        <!--<a href="/home/vgonzalezd/loginVane/OtraPagina.html">-->
+        <button type="button" name="button1" id="button1">Enter</button>
         </a>
       </div>
     </div>
